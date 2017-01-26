@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/nama_pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Nama Pokemon"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/atk_pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="ATK Pokemon"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/hp_pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="HP Pokemon"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <Button
+        android:id="@+id/buttom_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
